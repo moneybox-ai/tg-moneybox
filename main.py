@@ -1,9 +1,4 @@
-import os
-
-import telebot
-from dotenv import load_dotenv
-
-load_dotenv()
+from config import *
 
 
 bot = telebot.TeleBot(token=os.getenv('TOKEN'))
