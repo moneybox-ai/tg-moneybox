@@ -2,7 +2,6 @@ import telebot
 
 from config import TELEGRAM_TOKEN
 
-
 bot = telebot.TeleBot(token=TELEGRAM_TOKEN)
 
 @bot.message_handler(commands=['start'])

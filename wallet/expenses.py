@@ -1,9 +1,8 @@
-import telebot
-
-from telebot import types
 from datetime import datetime
 
+import telebot
 from openapi_client.models import Expense
+from telebot import types
 
 from config import TELEGRAM_TOKEN, initialize_expenses_api
 from consts import *

@@ -1,9 +1,10 @@
 import os
 
 from dotenv import load_dotenv
+from openapi_client import Configuration
 from openapi_client.api.expenses_api import ExpensesApi
 from openapi_client.api_client import ApiClient
-from openapi_client import Configuration
+
 from consts import expense_url
 
 load_dotenv()
