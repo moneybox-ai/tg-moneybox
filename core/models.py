@@ -4,6 +4,7 @@ from core.db import Base
 
 
 class UserToken(Base):
+    '''Модель для пары тг_юэер-токен_moneybox '''
     user = Column(Integer)
     token = Column(String)
 

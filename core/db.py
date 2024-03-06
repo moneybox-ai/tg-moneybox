@@ -6,7 +6,6 @@ from config import database_url
 
 
 class PreBase:
-
     @declared_attr
     def __tablename__(cls):
         return cls.__name__.lower()
@@ -21,4 +20,5 @@ SessionLocal = sessionmaker(engine)
 
 
 def get_sync_session():
+    '''Метод для получения сессии доступа к БД'''
     return SessionLocal()

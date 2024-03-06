@@ -12,3 +12,4 @@ chat_id = os.getenv('CHAT_ID')
 bot_url = os.getenv('URL')
 database_url_async = os.getenv('DATABASE_URL_ASYNC')
 database_url = os.getenv('DATABASE_URL')
+api_host = "http://localhost"
